@@ -23,7 +23,7 @@ export default {
             <div class="infobox">
                 <!-- title -->
                 <small>about the network</small>
-                <h2><span class="word">The</span> company</h2>
+                <h2><span class="word onblack">The</span> company</h2>
                 <!-- content -->
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, quidem laudantium hic

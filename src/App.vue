@@ -4,6 +4,7 @@ import AppHeader from './components/AppHeader.vue'
 import AppHome from './components/AppHome.vue'
 import AppAbout from './components/AppAbout.vue'
 import AppServices from './components/AppServices.vue'
+import AppProcess from './components/AppProcess.vue'
 
 // import json
 import links from './assets/links.json'
@@ -20,6 +21,7 @@ export default {
         AppHome,
         AppAbout,
         AppServices,
+        AppProcess,
 
     }
 }
@@ -30,7 +32,7 @@ export default {
     <AppHome />
     <AppAbout />
     <AppServices />
-
+    <AppProcess />
 </template>
 
 <style lang="scss" scoped>
