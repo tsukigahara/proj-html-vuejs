@@ -77,7 +77,7 @@
     {
         "name": "Blog",
         "drop": false,
-        "url": ""
+        "url": "#blog"
     },
     {
         "name": "Support",
