@@ -6,43 +6,45 @@ export default {
 
 <template>
     <section id="home" style="background-image: url(../src/assets/img/bg-6.jpg)">
-        <!-- container -->
-        <div class="container d-flex justify-content-md-end justify-content-center">
-            <!-- wrapper -->
-            <div class="my_wrapper">
-                <!-- titles -->
-                <small>fusion & acquisitions</small>
-                <h1>insurance consulting</h1>
-                <!-- form -->
-                <form>
-                    <!-- input group -->
-                    <div class="row row-cols-1 row-cols-lg-2 g-3">
-                        <div class="col">
-                            <input class="" type="text" placeholder="Name">
+        <div class="bg_overlay">
+            <!-- container -->
+            <div class="container d-flex justify-content-lg-end justify-content-center">
+                <!-- wrapper -->
+                <div class="my_wrapper">
+                    <!-- titles -->
+                    <small>fusion & acquisitions</small>
+                    <h1>insurance consulting</h1>
+                    <!-- form -->
+                    <form>
+                        <!-- input group -->
+                        <div class="row row-cols-1 row-cols-lg-2 g-3">
+                            <div class="col">
+                                <input class="" type="text" placeholder="Name">
+                            </div>
+                            <div class="col">
+                                <input class="" type="text" placeholder="Email">
+                            </div>
+                            <div class="col">
+                                <input class="" type="text" placeholder="Phone">
+                            </div>
+                            <div class="col">
+                                <select name="" id="">
+                                    <option selected>More Info</option>
+                                    <option value="">lorem</option>
+                                    <option value="">lorem</option>
+                                    <option value="">lorem</option>
+                                </select>
+                            </div>
+                            <!-- buttons -->
+                            <div class="col">
+                                <button class="btn my_btn" type="submit">GET IN TOUCH</button>
+                            </div>
+                            <div class="col">
+                                <a class="btn my_btn_border" href="#about">READ MORE</a>
+                            </div>
                         </div>
-                        <div class="col">
-                            <input class="" type="text" placeholder="Email">
-                        </div>
-                        <div class="col">
-                            <input class="" type="text" placeholder="Phone">
-                        </div>
-                        <div class="col">
-                            <select name="" id="">
-                                <option selected>More Info</option>
-                                <option value="">lorem</option>
-                                <option value="">lorem</option>
-                                <option value="">lorem</option>
-                            </select>
-                        </div>
-                        <!-- buttons -->
-                        <div class="col">
-                            <button class="btn my_btn" type="submit">GET IN TOUCH</button>
-                        </div>
-                        <div class="col">
-                            <a class="btn my_btn_border" href="#about">READ MORE</a>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
@@ -55,10 +57,30 @@ export default {
 #home {
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 800px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
+
+    // backgroud overlay for black opacity
+    .bg_overlay {
+        width: 100%;
+        height: 100%;
+        padding: 20% 0;
+        transition: 3s;
+
+        // background opacity when witdh < 992px
+        @media only screen and (max-width : 992px) {
+            & {
+                background-color: rgba(0, 0, 0, 0.608);
+                transition: 3s;
+            }
+
+            // change h1 color 
+            .my_wrapper {
+                h1 {
+                    color: white;
+                }
+
+            }
+        }
+    }
 
     .my_wrapper {
         display: flex;

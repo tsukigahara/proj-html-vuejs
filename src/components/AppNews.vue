@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <section id="news">
+    <section id="blog">
         <!-- container -->
         <div class="container d-flex justify-content-center justify-content-md-start flex-column">
             <!-- wrapper flex-->
@@ -79,7 +79,7 @@ export default {
 @use '../styles/general.scss' as *;
 @use '../styles/partial/variables' as *;
 
-#news {
+#blog {
     background-color: white;
     color: $shark;
     padding: 10% 0;

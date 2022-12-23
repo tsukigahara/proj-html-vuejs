@@ -1,13 +1,13 @@
 [
     {
-        "name": "HOME",
+        "name": "Home",
         "drop": false,
         "url": "#home"
     },
     {
-        "name": "ABOUT",
+        "name": "About",
         "drop": true,
-        "subitem": [
+        "subitems": [
             {
                 "name": "The Company",
                 "url": ""
@@ -37,7 +37,7 @@
     {
         "name": "Services",
         "drop": true,
-        "subitem": [
+        "subitems": [
             {
                 "name": "Audit & Assurance",
                 "url": ""
@@ -82,7 +82,7 @@
     {
         "name": "Support",
         "drop": true,
-        "subitem": [
+        "subitems": [
             {
                 "name": "Responsability",
                 "url": ""

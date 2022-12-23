@@ -1,11 +1,24 @@
 <script>
 export default {
     props: {
-        data: Array
-    }
+        list: Array
+    },
+    // data() {
+    //     return {
+    //         scrollPosition: null,
+    //     }
+    // },
+    // methods: {
+    //     updateScroll() {
+    //         this.scrollPosition = window.scrollY;
+    //         console.log(this.scrollPosition)
+    //     }
+    // },
+    // mounted() {
+    //     window.addEventListener('scroll', this.updateScroll)
+    // },
 }
 </script>
-
 <template>
     <header>
         <section class="banner">
@@ -24,7 +37,7 @@ export default {
                 <!-- nav content -->
                 <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
                     <ul class="navbar-nav my_navbar-nav align-items-center">
-                        <li class="nav-item" v-for="(item, index) in data" :key="index"
+                        <li class="nav-item" v-for="(item, index) in list" :key="index"
                             :class="item.drop == true ? 'dropdown' : ''">
                             <!-- without subitem -->
 
@@ -39,7 +52,7 @@ export default {
                                 {{ item.name }}
                             </a>
                             <ul class="dropdown-menu my_dropdown-menu" v-if="item.drop">
-                                <li v-for="(subitem, index) in item.subitem" :key="index">
+                                <li v-for="(subitem, index) in item.subitems" :key="index">
                                     <a class="dropdown-item" :href="subitem.url">{{ subitem.name }}</a>
                                 </li>
                             </ul>
@@ -57,10 +70,6 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/general.scss' as *;
 @use '../styles/partial/variables' as *;
-
-
-
-
 
 .my_nav {
     font-weight: 400;

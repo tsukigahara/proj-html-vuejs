@@ -9,6 +9,7 @@ import AppProcess from './components/AppProcess.vue'
 import AppTeam from './components/AppTeam.vue'
 import AppNews from './components/AppNews.vue'
 import AppKnow from './components/AppKnow.vue'
+import AppFooter from './components/AppFooter.vue'
 
 // import json
 import links from './assets/links.json'
@@ -28,14 +29,14 @@ export default {
         AppProcess,
         AppTeam,
         AppNews,
-        AppKnow
-
+        AppKnow,
+        AppFooter
     }
 }
 </script>
 
 <template>
-    <AppHeader :data="links" />
+    <AppHeader :list="links" />
     <AppHome />
     <AppAbout />
     <AppServices />
@@ -43,6 +44,7 @@ export default {
     <AppTeam />
     <AppNews />
     <AppKnow />
+    <AppFooter :list="links" />
 </template>
 
 <style lang="scss" scoped>

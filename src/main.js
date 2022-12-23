@@ -17,7 +17,8 @@ import { faPenToSquare } from '@fortawesome/free-solid-svg-icons'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { faNetworkWired } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faLock, faMedal, faPenToSquare, faGraduationCap, faNetworkWired, faArrowRight)
+library.add(faLock, faMedal, faPenToSquare, faGraduationCap, faNetworkWired, faArrowRight, faAngleRight)
 
 createApp(App).mount('#app')
