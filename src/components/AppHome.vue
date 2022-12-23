@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <section id="home" style="background-image: url(../src/assets/img/bg-6.jpg)">
+    <section id="home">
         <div class="bg_overlay">
             <!-- container -->
             <div class="container d-flex justify-content-lg-end justify-content-center">
@@ -57,6 +57,7 @@ export default {
 #home {
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url('../assets/img/bg-6.jpg');
 
     // backgroud overlay for black opacity
     .bg_overlay {

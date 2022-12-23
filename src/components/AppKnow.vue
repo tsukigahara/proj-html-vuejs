@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <section id="know" style="background-image: url(../src/assets/img/bg-1.jpg)">
+    <section id="know">
         <!-- container -->
         <div class="container d-flex justify-content-center flex-column flex-md-row">
             <!-- wrapper -->
@@ -48,6 +48,7 @@ export default {
 @use '../styles/partial/variables' as *;
 
 #know {
+    background-image: url('../assets/img/bg-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
