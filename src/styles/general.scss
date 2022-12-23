@@ -6,6 +6,10 @@
 // general rules/////////////////////////////
 * {
     font-family: 'Montserrat', sans-serif;
+
+    &:hover {
+        transition: 0.4s;
+    }
 }
 
 a {
@@ -34,9 +38,9 @@ h2 {
 
 p {
     color: $edward;
-
 }
 
+// text with background color
 .word {
     background-color: $word;
     color: $bluelagoon;
@@ -48,7 +52,25 @@ p {
     color: white !important;
 }
 
+// inputs
+input {
+    min-height: 40px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    color: gray;
+    padding: 10px;
+    background-color: rgba(218, 218, 218, 0.92);
+    margin-bottom: 1rem;
+
+    &:focus {
+        outline-color: $fountainblue;
+    }
+}
+
 //buttons////////
+
+// solid button
 .my_btn {
     background-color: $bluelagoon !important;
     color: white !important;
@@ -56,16 +78,18 @@ p {
     font-size: 14px !important;
     border-radius: 5px !important;
     border: 2px solid $bluelagoon !important;
+    margin-right: 1rem;
 
     &:hover {
-        border-color: $bluelagoon !important;
-        color: $bluelagoon !important;
+        border-color: $fountainblue !important;
+        color: $fountainblue !important;
         background-color: transparent !important;
 
     }
 
 }
 
+// outline button
 .my_btn_border {
     border-color: $bluelagoon !important;
     color: $bluelagoon !important;
@@ -76,8 +100,8 @@ p {
     border-radius: 5px !important;
 
     &:hover {
-        background-color: $bluelagoon !important;
+        background-color: $fountainblue !important;
         color: white !important;
-        border-color: $bluelagoon !important;
+        border-color: $fountainblue !important;
     }
 }

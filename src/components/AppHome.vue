@@ -16,19 +16,31 @@ export default {
                 <!-- form -->
                 <form>
                     <!-- input group -->
-                    <div class="my_input-group mb-2">
-                        <input class="" type="text" placeholder="Name">
-                        <input class="" type="text" placeholder="Email">
-                        <input class="" type="text" placeholder="Phone">
-                        <select name="" id="">
-                            <option selected>More Info</option>
-                            <option value="">lorem</option>
-                            <option value="">lorem</option>
-                            <option value="">lorem</option>
-                        </select>
+                    <div class="row row-cols-1 row-cols-lg-2 g-3">
+                        <div class="col">
+                            <input class="" type="text" placeholder="Name">
+                        </div>
+                        <div class="col">
+                            <input class="" type="text" placeholder="Email">
+                        </div>
+                        <div class="col">
+                            <input class="" type="text" placeholder="Phone">
+                        </div>
+                        <div class="col">
+                            <select name="" id="">
+                                <option selected>More Info</option>
+                                <option value="">lorem</option>
+                                <option value="">lorem</option>
+                                <option value="">lorem</option>
+                            </select>
+                        </div>
                         <!-- buttons -->
-                        <button class="btn my_btn" type="submit">GET IN TOUCH</button>
-                        <a class="btn my_btn_border" href="#about">READ MORE</a>
+                        <div class="col">
+                            <button class="btn my_btn" type="submit">GET IN TOUCH</button>
+                        </div>
+                        <div class="col">
+                            <a class="btn my_btn_border" href="#about">READ MORE</a>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -68,25 +80,23 @@ export default {
         }
 
         form {
-            .my_input-group {
-                display: flex;
-                flex-flow: row wrap;
-                justify-content: center;
-                gap: 10px;
 
-                &>* {
-                    min-height: 40px;
-                    width: 190px;
-                    border: 0;
-                    border-radius: 5px;
-                    color: gray;
-                    padding: 10px;
-                    background-color: rgba(218, 218, 218, 0.92);
+            input {
+                margin: 0;
+            }
 
-                    &:focus {
-                        outline-color: $bluelagoon;
-                    }
-                }
+            select {
+                min-height: 40px;
+                width: 100%;
+                border: 0;
+                border-radius: 5px;
+                color: gray;
+                padding: 10px;
+                background-color: rgba(218, 218, 218, 0.92);
+            }
+
+            .btn {
+                width: 100%
             }
         }
     }

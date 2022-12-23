@@ -1,4 +1,5 @@
 <script>
+
 // import components
 import AppHeader from './components/AppHeader.vue'
 import AppHome from './components/AppHome.vue'
@@ -7,6 +8,7 @@ import AppServices from './components/AppServices.vue'
 import AppProcess from './components/AppProcess.vue'
 import AppTeam from './components/AppTeam.vue'
 import AppNews from './components/AppNews.vue'
+import AppKnow from './components/AppKnow.vue'
 
 // import json
 import links from './assets/links.json'
@@ -25,7 +27,8 @@ export default {
         AppServices,
         AppProcess,
         AppTeam,
-        AppNews
+        AppNews,
+        AppKnow
 
     }
 }
@@ -39,6 +42,7 @@ export default {
     <AppProcess />
     <AppTeam />
     <AppNews />
+    <AppKnow />
 </template>
 
 <style lang="scss" scoped>

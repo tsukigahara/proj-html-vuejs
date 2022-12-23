@@ -23,12 +23,11 @@ export default {
             <div class="infobox">
                 <div>
                     <!-- title -->
-                    <small>our business areas</small>
-                    <h2>Excellence in <span class="word">Services</span></h2>
+                    <small>our editorial content</small>
+                    <h2>latest <span class="word">news</span></h2>
                     <!-- content -->
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, culpa laborum. Ipsum quidem,
-                        maxime sunt, consequatur ipsa, dolores tempore ratione
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, culpa laborum.
                     </p>
                 </div>
                 <!-- see more button -->
@@ -36,144 +35,39 @@ export default {
             </div>
             <!-- cards bootstrap -->
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 my-2">
-                <div class="col">
-                    <div class="card my_card h100">
-                        <a href="">
-                            <div class="card-body">
-                                <!-- arrow icon -->
-                                <span>
-                                    <font-awesome-icon icon="fa-solid fa-arrow-right" :color="icolor" :size="isize" />
-                                </span>
-                                <!-- title icon -->
-                                <h5 class="mb-3">
-                                    <font-awesome-icon icon="fa-solid fa-network-wired" :color="icolor" :size="isize" />
-                                </h5>
-                                <!-- title -->
-                                <h5 class="my_card-title mb-3">Card title</h5>
-                                <!-- content -->
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in
-                                    to additional
-                                    content.</p>
+                <a href="">
+                    <div class="col">
+                        <div class="card">
+                            <img src="../assets/img/news-1.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
                             </div>
-                        </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card my_card h100">
-                        <a href="">
-                            <div class="card-body">
-                                <!-- arrow icon -->
-                                <span>
-                                    <font-awesome-icon icon="fa-solid fa-arrow-right" :color="icolor" :size="isize" />
-                                </span>
-                                <!-- title icon -->
-                                <h5 class="mb-3">
-                                    <font-awesome-icon icon="fa-solid fa-network-wired" :color="icolor" :size="isize" />
-                                </h5>
-                                <!-- title -->
-                                <h5 class="my_card-title mb-3">Card title</h5>
-                                <!-- content -->
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in
-                                    to additional
-                                    content.</p>
+                </a>
+                <a href="">
+                    <div class="col">
+                        <div class="card">
+                            <img src="../assets/img/news-1.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
                             </div>
-                        </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card my_card h100">
-                        <a href="">
-                            <div class="card-body">
-                                <!-- arrow icon -->
-                                <span>
-                                    <font-awesome-icon icon="fa-solid fa-arrow-right" :color="icolor" :size="isize" />
-                                </span>
-                                <!-- title icon -->
-                                <h5 class="mb-3">
-                                    <font-awesome-icon icon="fa-solid fa-network-wired" :color="icolor" :size="isize" />
-                                </h5>
-                                <!-- title -->
-                                <h5 class="my_card-title mb-3">Card title</h5>
-                                <!-- content -->
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in
-                                    to additional
-                                    content.</p>
+                </a>
+                <a href="">
+                    <div class="col">
+                        <div class="card">
+                            <img src="../assets/img/news-1.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
                             </div>
-                        </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card my_card h100">
-                        <a href="">
-                            <div class="card-body">
-                                <!-- arrow icon -->
-                                <span>
-                                    <font-awesome-icon icon="fa-solid fa-arrow-right" :color="icolor" :size="isize" />
-                                </span>
-                                <!-- title icon -->
-                                <h5 class="mb-3">
-                                    <font-awesome-icon icon="fa-solid fa-network-wired" :color="icolor" :size="isize" />
-                                </h5>
-                                <!-- title -->
-                                <h5 class="my_card-title mb-3">Card title</h5>
-                                <!-- content -->
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in
-                                    to additional
-                                    content.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card my_card h100">
-                        <a href="">
-                            <div class="card-body">
-                                <!-- arrow icon -->
-                                <span>
-                                    <font-awesome-icon icon="fa-solid fa-arrow-right" :color="icolor" :size="isize" />
-                                </span>
-                                <!-- title icon -->
-                                <h5 class="mb-3">
-                                    <font-awesome-icon icon="fa-solid fa-network-wired" :color="icolor" :size="isize" />
-                                </h5>
-                                <!-- title -->
-                                <h5 class="my_card-title mb-3">Card title</h5>
-                                <!-- content -->
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in
-                                    to additional
-                                    content.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card my_card h100">
-                        <a href="">
-                            <div class="card-body">
-                                <!-- arrow icon -->
-                                <span>
-                                    <font-awesome-icon icon="fa-solid fa-arrow-right" :color="icolor" :size="isize" />
-                                </span>
-                                <!-- title icon -->
-                                <h5 class="mb-3">
-                                    <font-awesome-icon icon="fa-solid fa-network-wired" :color="icolor" :size="isize" />
-                                </h5>
-                                <!-- title -->
-                                <h5 class="my_card-title mb-3">Card title</h5>
-                                <!-- content -->
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in
-                                    to additional
-                                    content.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                </a>
 
             </div>
         </div>
@@ -186,7 +80,7 @@ export default {
 @use '../styles/partial/variables' as *;
 
 #news {
-    background-color: $blackhaze;
+    background-color: white;
     color: $shark;
     padding: 10% 0;
 
@@ -200,37 +94,26 @@ export default {
             justify-content: space-between;
             flex-flow: row wrap;
 
-            div {
-                flex-basis: 70%;
-            }
-
             button {
                 align-self: flex-end;
             }
-
         }
 
-        .my_card {
-            border: 0;
+        .card-img-overlay {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: end;
+            background-color: rgba(0, 0, 0, 0.405);
 
             &:hover {
-                background-color: #3d49551c;
+                background-color: $word;
             }
 
-            .card-body {
-                padding: 1.5em 3em;
-                position: relative;
-
-                span {
-                    position: absolute;
-                    right: 40px;
-                    top: 40px;
-                }
-
-                .my_card-title {
-                    font-weight: 600;
-                    font-size: 24px;
-                }
+            .card-title {
+                color: white;
+                font-size: 24px;
+                font-weight: 600;
             }
         }
 
